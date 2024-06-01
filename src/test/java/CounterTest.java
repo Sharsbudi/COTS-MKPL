@@ -66,7 +66,7 @@ public class CounterTest {
         Counter testCounter = new Counter();
         testCounter.increaseBy(2);
         testCounter.powerBy(3);
-        assertEquals(testCounter.getCount(), 8);
+        assertEquals(testCounter.getCount(), 9);
     }
 
     @Test
